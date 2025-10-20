@@ -1,0 +1,16 @@
+{
+  "extends": "../.nuxt/tsconfig.server.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "jsx": "preserve",
+    "types": ["@nuxt/kit", "@types/node", "vuetify"],
+    "paths": {
+      "#app": ["./.nuxt/types/app.d.ts"]
+    }
+  }
+}
