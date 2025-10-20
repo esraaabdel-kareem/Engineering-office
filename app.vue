@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:px-[50px] px-5">
+  <div class="sm:px-[50px] md:px-[50px] lg:px-[50px] px-5">
     <NuxtLayout>
       <AppNav />
       <NuxtPage />
