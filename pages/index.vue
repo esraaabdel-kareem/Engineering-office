@@ -1,5 +1,5 @@
 <template>
-    <div class="md:pr-100px pr-0 home">
+    <div class="md:pr-100px pr-0 home ">
         <span class="text-xs text-gray-400">
             Quoted from [Website Name]
         </span>
@@ -18,7 +18,7 @@
                 <div class="face top"></div>
                 <div class="face bottom"></div>
             </div>
-            <h3 class="lg:text-[2rem] sm:text-[1.4rem] text-end mt-5 ">
+            <h3 class="lg:text-[2rem] sm:text-[1.4rem] text-end mt-5 px-3 ">
                 <span>CREATIVE SPACES FOR</span>
                 <br>
                 <span>LIFE AND BUSINESS</span>
