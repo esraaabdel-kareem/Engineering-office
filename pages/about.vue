@@ -99,12 +99,44 @@ const teamWork = ref<TeamMember[]>([
             top: 50%;
             left: 50%;
             width: 70%;
-            margin: 30px;
+            margin: 35px;
             max-width: 1000px;
             height: 2px;
             background-color: #00000081;
             transform: translate(-50%, -50%) rotate(135deg);
+        }
 
+        @media (max-width: 768px) {
+            height: 80px;
+
+            &::after {
+                margin: 100px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            height: 60px;
+
+            &::after {
+                margin: 50px;
+            }
+        }
+
+        @media (min-width: 500px) and (max-width: 800px) {
+            height: 90px;
+
+            &::after {
+                margin: 20px;
+            }
+        }
+
+
+        @media (width: 1024px) {
+            height: 90px;
+
+            &::after {
+                margin: 90px;
+            }
         }
     }
 
