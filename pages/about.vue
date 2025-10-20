@@ -99,14 +99,14 @@ const teamWork = ref<TeamMember[]>([
             top: 50%;
             left: 50%;
             width: 70%;
-            margin: 35px;
+            margin: 30px;
             max-width: 1000px;
             height: 2px;
             background-color: #00000081;
             transform: translate(-50%, -50%) rotate(135deg);
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 769px) {
             height: 80px;
 
             &::after {
