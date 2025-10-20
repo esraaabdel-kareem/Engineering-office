@@ -3,8 +3,8 @@
         <div class="flex justify-between nav-bar w-full" v-if="isMainPage">
             <div class="py-9">
                 <div class="square">
-                    <h4 class="text-[.5rem] px-[2px] font-bold ">DD</h4>
-                    <h4 class="text-[.5rem]  font-bold flex justify-end px-[2px]">
+                    <h4 class="text-[.5rem] sm:text-[.9rem] px-[2px] font-bold">DD</h4>
+                    <h4 class="text-[.5rem] sm:text-[.9rem] font-bold flex justify-end px-[2px]">
                         BB
                     </h4>
                 </div>
@@ -15,8 +15,6 @@
                 <span class="hover:text-zinc-400 transition-all">DROP REQUEST</span>
             </NuxtLink>
 
-
-
             <nav class="fixed z-50 bg-[#f7f7f7] lg:flex hidden -right-[168px]">
                 <div class="grid grid-cols-3 w-[45%] cursor-pointer">
                     <NuxtLink v-for="item in filteredMenu" :key="item.name" :to="item.link"
@@ -26,7 +24,6 @@
                     </NuxtLink>
                 </div>
             </nav>
-
 
             <div class="flex lg:hidden">
                 <div class="flex lg:hidden">
@@ -160,7 +157,7 @@ const filteredMenu = computed(() => menuItem.filter(item => item.link !== route.
     border: 1px solid #000;
     position: relative;
 
-    @media (max-width: 400px) {
+    @media (max-width: 540px) {
         width: 25px;
         height: 25px;
     }
