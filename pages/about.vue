@@ -105,30 +105,6 @@ const teamWork = ref<TeamMember[]>([
             background-color: #00000081;
             transform: translate(-50%, -50%) rotate(135deg);
 
-            @media (max-width: 390px) {
-                margin: 25px;
-
-                & Icon {
-                    width: 50px;
-                }
-            }
-
-            @media (min-width: 412px) and (max-width: 550px) {
-                margin: 5px;
-            }
-
-            @media (max-width: 991px) {
-                margin: 50px;
-            }
-
-            @media (width: 1024px) and (height: 1366px) {
-                margin: 20px;
-            }
-
-            @media (width: 1024px) and (height: 600px) {
-                margin: 70px;
-            }
-
         }
     }
 
