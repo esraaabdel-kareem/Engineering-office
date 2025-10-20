@@ -12,7 +12,7 @@
 
             <NuxtLink to="/drop-request"
                 class="link sm:text-[1.2rem] text-[.8rem] font-bold sm:px-[100px] py-9 md:py-5">
-                <span class="hover:text-zinc-400 transition-all">DROP REQUEST</span>
+                <span class="hover:text-zinc-400 transition-all">Drop Request</span>
             </NuxtLink>
 
             <nav class="fixed z-50 bg-[#f7f7f7] lg:flex hidden -right-[168px]">
