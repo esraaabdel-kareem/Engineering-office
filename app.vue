@@ -1,5 +1,5 @@
 <template>
-  <div class="sm:px-[50px] md:px-[50px] lg:px-[50px] px-5">
+  <div class="px-[50px] max-sm:px-5">
     <NuxtLayout>
       <AppNav />
       <NuxtPage />
@@ -29,7 +29,7 @@ body {
 .page-enter-from,
 .page-leave-to {
   opacity: 0;
-  filter: blur(.9rem);
-  transform: scale(1.1);
+  filter: blur(5px);
+  transform: scale(1.05);
 }
 </style>
