@@ -98,7 +98,7 @@ const teamWork = ref<TeamMember[]>([
             position: absolute;
             top: 50%;
             left: 50%;
-            width: 70%;
+            width: 60%;
             margin: 30px;
             max-width: 1000px;
             height: 2px;
