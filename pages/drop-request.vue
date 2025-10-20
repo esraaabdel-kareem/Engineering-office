@@ -2,7 +2,7 @@
     <div class="grid grid-cols-2 drop gap-4 w-full h-[75vh] py-10 transition-all duration-200">
         <div class="line"></div>
 
-        <form @submit.prevent="handleSubmit" class="flex flex-col gap-8 my-auto px-8">
+        <form @submit.prevent="handleSubmit()" class="flex flex-col gap-8 my-auto px-8">
             <!-- Full Name -->
             <div class="relative border-b-2 border-zinc-900">
                 <input v-model="form.username" type="text" id="username" placeholder=" " required
@@ -16,11 +16,11 @@
 
             <!-- Phone -->
             <div class="relative border-b-2 border-zinc-900">
-                <input v-model="form.phone" type="text" id="phone" placeholder=" " required
+                <input v-model="form.phone" type="text" id="phone" placeholder="" required
                     class="peer w-full outline-none pt-6 text-lg placeholder-transparent" />
                 <label for="phone" class="absolute left-0 top-1 text-zinc-700 text-lg transition-all
-          peer-placeholder-shown:top-4 peer-placeholder-shown:text-base
-          peer-placeholder-shown:text-zinc-400 peer-focus:top-1 peer-focus:text-lg peer-focus:text-zinc-700">
+                peer-placeholder-shown:top-4 peer-placeholder-shown:text-base
+             peer-placeholder-shown:text-zinc-400 peer-focus:top-1    peer-focus:text-lg peer-focus:text-zinc-700">
                     Phone
                 </label>
             </div>
